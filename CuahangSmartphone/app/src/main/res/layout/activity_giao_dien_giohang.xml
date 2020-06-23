@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/new_login_gradients"
+    tools:context="com.cuahang.smartphone.login.GiaoDienGioHang" >
+
+    <TextView
+        android:id="@+id/txtAvatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffe0e0"
+        android:text="Hình ảnh"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#ffe0e0"
+        android:text="Tên sản phẩm"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="#ffe0e0"
+        android:text="Số lượng"
+        android:textSize="15dp" />
+
+    <ListView
+        android:id="@+id/lvDanhSachDat"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/txtTongTien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:textColor="#ffe0e0"
+        android:text="Tổng tiền" />
+
+    <Button
+        android:id="@+id/btnTroVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="#ffe0e0"
+        android:text="Quay lại"
+        android:layout_alignParentBottom="true"/>
+
+    <Button
+        android:id="@+id/btnMua"
+        android:layout_toRightOf="@+id/btnTroVe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:background="#ffe0e0"
+        android:text="Đặt hàng"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>
