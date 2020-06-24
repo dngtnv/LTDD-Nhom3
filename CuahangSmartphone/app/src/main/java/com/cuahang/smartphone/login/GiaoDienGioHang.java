@@ -47,7 +47,7 @@ public class GiaoDienGioHang extends AppCompatActivity {
         btnTroVe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentTroVe=new Intent(GiaoDienGioHang.this,MainActivity.class);
+                Intent intentTroVe=new Intent(GiaoDienGioHang.this,DanhSachSanPham.class);
                 startActivity(intentTroVe);
             }
         });

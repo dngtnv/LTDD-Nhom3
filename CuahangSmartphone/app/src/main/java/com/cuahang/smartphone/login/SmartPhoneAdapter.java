@@ -31,7 +31,7 @@ public class SmartPhoneAdapter extends ArrayAdapter<SmartPhone> {
         imgThem.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getContext(),"Da them 1 "+sm.getProductName(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(getContext(),"Đã thêm 1 "+sm.getProductName(),Toast.LENGTH_SHORT).show();
                 sm.setNumber(sm.getNumber()+1);
             }
         });

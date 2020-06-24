@@ -22,14 +22,14 @@ public class RegisterPay extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(RegisterPay.this, "Bạn đã đặt thành công", Toast.LENGTH_SHORT).show();
-                Intent intentbtnPay = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intentbtnPay = new Intent(getApplicationContext(), LoginSucess.class);
                 startActivity(intentbtnPay);
             }
         });
         btnQuaylai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intentbtnQuaylai = new Intent(getApplicationContext(), MainActivity.class);
+                Intent intentbtnQuaylai = new Intent(getApplicationContext(), GiaoDienGioHang.class);
                 startActivity(intentbtnQuaylai);
             }
         });
