@@ -22,5 +22,13 @@ public class LoginSucess extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        TextView listsp2 = (TextView) findViewById(R.id.listsanpham2);
+        listsp2.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                Intent intent = new Intent(LoginSucess.this, DanhSachSanPham.class);
+                startActivity(intent);
+            }
+        });
     }
 }

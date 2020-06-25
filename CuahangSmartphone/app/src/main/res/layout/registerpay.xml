@@ -97,11 +97,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#ffe0e0"
-                    android:text="Thanh toán bằng tiền mặt "/>
+                    android:textSize="13sp"
+                    android:text="Thanh toán bằng tiền mặt"/>
                 <RadioButton
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textColor="#ffe0e0"
+                    android:textSize="13sp"
                     android:text="Thanh toán qua thẻ"/>
             </RadioGroup>
         </TableRow>

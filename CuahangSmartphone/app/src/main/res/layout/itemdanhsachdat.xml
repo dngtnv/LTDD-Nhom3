@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
         android:id="@+id/imgHinhDienThoai1"
@@ -17,7 +18,8 @@
             android:id="@+id/txtTenDienThoai1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="18dp"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
             android:text="TextView" />
 
         <TextView
@@ -30,7 +32,14 @@
             android:id="@+id/txtSoLuong1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
             android:text="TextView" />
+        <ImageView
+            android:id="@+id/imgXoasanpham"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="250dp"
+            app:srcCompat="@drawable/xoa"/>
 
     </LinearLayout>
 

@@ -59,7 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:text="Sản phẩm phổ biến"
-            android:textColor="@color/colorTitle"
+            android:textColor="#ffffff"
             android:textSize="20sp" />
 
         <LinearLayout
@@ -469,7 +469,7 @@
         android:textAlignment="center"
         android:paddingTop="50dp"
         android:background="#3643d8"
-        android:layout_marginLeft="8dp"
+        android:layout_marginLeft="3dp"
         android:textColor="#ffffff"
         android:gravity="center_horizontal" />
     <TextView
@@ -481,7 +481,7 @@
         android:textAlignment="center"
         android:paddingTop="50dp"
         android:background="#3643d8"
-        android:layout_marginLeft="17dp"
+        android:layout_marginLeft="10dp"
         android:textColor="#ffffff"
         android:gravity="center_horizontal" />
     </LinearLayout>

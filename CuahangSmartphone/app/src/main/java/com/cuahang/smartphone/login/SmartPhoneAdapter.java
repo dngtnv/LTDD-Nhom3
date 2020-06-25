@@ -23,6 +23,7 @@ public class SmartPhoneAdapter extends ArrayAdapter<SmartPhone> {
         TextView txtTenDienThoai=(TextView)customView.findViewById(R.id.txtTenDienThoai);
         TextView txtGiaDienThoai=(TextView)customView.findViewById(R.id.txtGiaDienThoai);
         ImageView imgThem=(ImageView) customView.findViewById(R.id.imgThemdienThoai);
+//        ImageView imgXoa=(ImageView) customView.findViewById(R.id.imgXoasanpham);
 
         final SmartPhone sm=getItem(position);
         txtTenDienThoai.setText(sm.getProductName());
@@ -35,6 +36,13 @@ public class SmartPhoneAdapter extends ArrayAdapter<SmartPhone> {
                 sm.setNumber(sm.getNumber()+1);
             }
         });
+//        imgXoa.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Toast.makeText(getContext(),"Đã xóa 1 "+sm.getProductName(),Toast.LENGTH_SHORT).show();
+//                sm.setNumber(sm.getNumber()-1);
+//            }
+//        });
         return customView;
     }
 }

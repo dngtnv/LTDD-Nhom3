@@ -19,7 +19,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:textSize="18dp"
+            android:textSize="18sp"
             android:text="TextView" />
 
         <TextView
@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="25dp"
             app:srcCompat="@drawable/plus_16"
-            android:layout_marginLeft="250sp"/>
+            android:layout_marginLeft="250dp"/>
 
     </LinearLayout>
 
