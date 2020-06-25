@@ -26,10 +26,10 @@ public class DanhSachSanPham extends AppCompatActivity {
         arrayList.add(new SmartPhone(1,"iPhone 7 Plus 32GB","iPhone 7 plus","Apple",R.drawable.iphone_7_plus,22290000,0));
         arrayList.add(new SmartPhone(2,"iPhone 6 ","iPhone 6","Apple",R.drawable.iphone_6,23290000,0));
         arrayList.add(new SmartPhone(3,"iPhone 6s","iPhone 6s","Apple",R.drawable.iphone_6s,21290000,0));
-        arrayList.add(new SmartPhone(4,"Lumia 950 LX","Lumia","Lumia",R.drawable.lumia_950xl,18290000,0));
+        arrayList.add(new SmartPhone(4,"Iphone XR","Iphone XR","Apple",R.drawable.iphone_xr,18290000,0));
         arrayList.add(new SmartPhone(5,"SamSung J7","SamSung J7","Samsung",R.drawable.sam_sung_j7,25290000,0));
         arrayList.add(new SmartPhone(6,"SamSung S7","SamSung S7","Samsung",R.drawable.sam_sung_s7,15290000,0));
-        arrayList.add(new SmartPhone(7,"Sony Expria","Sony Expria","Sony",R.drawable.lumia_950xl,19290000,0));
+        arrayList.add(new SmartPhone(7,"Iphone 11","Iphone 11","Apple",R.drawable.iphone_11,19290000,0));
         smartPhoneAdapter.addAll(arrayList);
 
     }
