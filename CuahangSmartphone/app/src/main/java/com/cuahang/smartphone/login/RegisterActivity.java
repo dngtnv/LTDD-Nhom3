@@ -11,6 +11,9 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 public class RegisterActivity extends AppCompatActivity {
     private Button registerBtn,gotoLoginBtn;
 
@@ -39,9 +42,15 @@ public class RegisterActivity extends AppCompatActivity {
                 String fPhone = regPhone.getText().toString().trim();
                 String fGmail = regGmail.getText().toString().trim();
                 String fPassword = regPassword.getText().toString().trim();
+                String regex = "^[a-zA-Z]+[a-zA-Z0-9]*@[a-zA-Z]+mail.com$";
+                Pattern pattern = Pattern.compile(regex);
+                Matcher matcher = pattern.matcher(fGmail);
                 if (fname.isEmpty() || fPassword.isEmpty() || fGmail.isEmpty() || fPhone.isEmpty()) {
                     Toast.makeText(RegisterActivity.this, "Hãy điền đầy đủ thông tin", Toast.LENGTH_SHORT).show();
-                } else {
+                }else if(!matcher.find()){
+                    Toast.makeText(RegisterActivity.this, "Nhập sai định dạng email!", Toast.LENGTH_SHORT).show();
+                }
+                else {
                 insertData(fname,fPhone,fGmail,fPassword);
                 Toast.makeText(RegisterActivity.this, "Đăng ký thành công", Toast.LENGTH_SHORT).show();
             }
@@ -51,7 +60,7 @@ public class RegisterActivity extends AppCompatActivity {
         gotoLoginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(RegisterActivity.this,MainActivity.class));
+                startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                 finish();
             }
         });

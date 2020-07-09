@@ -12,7 +12,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
     private TextView tvRegister;
     private EditText etLoginGmail,etLoginPassword;
     private Button loginButton;
@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_login);
 
         openHelper = new DatabaseHelper(this);
         db = openHelper.getReadableDatabase();
@@ -40,12 +40,12 @@ public class MainActivity extends AppCompatActivity {
                 String email = etLoginGmail.getText().toString().trim();
                 String password = etLoginPassword.getText().toString().trim();
                 if (email.isEmpty() || password.isEmpty()) {
-                    Toast.makeText(MainActivity.this, "Nhập tài khoản và mật khẩu để đăng nhập!", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this, "Nhập tài khoản và mật khẩu để đăng nhập!", Toast.LENGTH_SHORT).show();
                 } else {
                     cursor = db.rawQuery("SELECT *FROM " + DatabaseHelper.TABLE_NAME + " WHERE " + DatabaseHelper.COL_4 + "=? AND " + DatabaseHelper.COL_5 + "=?", new String[]{email, password});
                     if (cursor != null) {
                         if (cursor.getCount() > 0) {
-                            startActivity(new Intent(MainActivity.this, LoginSucess.class));
+                            startActivity(new Intent(LoginActivity.this, LoginSucess.class));
                             Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
 
                         } else {
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
         tvRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this,RegisterActivity.class));
+                startActivity(new Intent(LoginActivity.this,RegisterActivity.class));
                 finish();
             }
         });

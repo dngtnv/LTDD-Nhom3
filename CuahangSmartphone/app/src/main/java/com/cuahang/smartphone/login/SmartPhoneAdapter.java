@@ -25,7 +25,7 @@ public class SmartPhoneAdapter extends ArrayAdapter<SmartPhone> {
         ImageView imgThem=(ImageView) customView.findViewById(R.id.imgThemdienThoai);
 //        ImageView imgXoa=(ImageView) customView.findViewById(R.id.imgXoasanpham);
 
-        final SmartPhone sm=getItem(position);
+        final SmartPhone sm = getItem(position);
         txtTenDienThoai.setText(sm.getProductName());
         txtGiaDienThoai.setText(sm.getPrice()+"");
         imgHinhDienThoai.setImageResource(sm.getAvatar());

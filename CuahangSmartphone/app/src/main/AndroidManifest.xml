@@ -14,7 +14,7 @@
         <activity android:name=".GiaoDienGioHang"/>
         <activity android:name=".RegisterPay"/>
         <activity
-            android:name="com.cuahang.smartphone.login.MainActivity"
+            android:name="com.cuahang.smartphone.login.LoginActivity"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
