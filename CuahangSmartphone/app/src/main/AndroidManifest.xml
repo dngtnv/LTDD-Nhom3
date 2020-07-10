@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.cuahang.smartphone.login.LoginSucess"/>
+        <activity android:name="com.cuahang.smartphone.login.MainActivity"/>
         <activity android:name=".DanhSachSanPham"/>
         <activity android:name=".GiaoDienGioHang"/>
         <activity android:name=".RegisterPay"/>

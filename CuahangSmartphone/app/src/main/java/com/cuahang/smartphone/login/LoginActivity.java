@@ -45,7 +45,7 @@ public class LoginActivity extends AppCompatActivity {
                     cursor = db.rawQuery("SELECT *FROM " + DatabaseHelper.TABLE_NAME + " WHERE " + DatabaseHelper.COL_4 + "=? AND " + DatabaseHelper.COL_5 + "=?", new String[]{email, password});
                     if (cursor != null) {
                         if (cursor.getCount() > 0) {
-                            startActivity(new Intent(LoginActivity.this, LoginSucess.class));
+                            startActivity(new Intent(LoginActivity.this, MainActivity.class));
                             Toast.makeText(getApplicationContext(), "Đăng nhập thành công", Toast.LENGTH_SHORT).show();
 
                         } else {

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.TextView;
 
 
-public class LoginSucess extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,7 +18,7 @@ public class LoginSucess extends AppCompatActivity {
         listsp.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(LoginSucess.this, DanhSachSanPham.class);
+                Intent intent = new Intent(MainActivity.this, DanhSachSanPham.class);
                 startActivity(intent);
             }
         });
@@ -26,7 +26,7 @@ public class LoginSucess extends AppCompatActivity {
         listsp2.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent intent = new Intent(LoginSucess.this, DanhSachSanPham.class);
+                Intent intent = new Intent(MainActivity.this, DanhSachSanPham.class);
                 startActivity(intent);
             }
         });

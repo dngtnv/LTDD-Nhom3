@@ -34,12 +34,12 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="250dp"
             android:text="TextView" />
-        <ImageView
+        <!--<ImageView
             android:id="@+id/imgXoasanpham"
             android:layout_width="match_parent"
             android:layout_height="25dp"
             android:layout_marginLeft="250dp"
-            app:srcCompat="@drawable/xoa"/>
+            app:srcCompat="@drawable/xoa"/>-->
 
     </LinearLayout>
 
