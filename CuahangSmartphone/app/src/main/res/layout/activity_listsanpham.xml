@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/new_login_gradients"
-    tools:context=".LoginActivity" >
+    android:background="@drawable/new_login_gradients">
 
     <TextView
         android:id="@+id/txtLabel"

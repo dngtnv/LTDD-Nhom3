@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@drawable/new_login_gradients"
+    android:orientation="vertical"
     tools:context="com.cuahang.smartphone.login.LoginActivity">
 
     <android.support.v7.widget.CardView
@@ -65,8 +65,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
             android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
             android:orientation="horizontal">
 
             <HorizontalScrollView
@@ -86,8 +86,8 @@
                         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                             android:layout_width="120dp"
                             android:layout_height="150dp"
-                            android:layout_marginBottom="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
                             android:elevation="6dp"
                             card_view:cardCornerRadius="6dp">
 
@@ -108,12 +108,14 @@
                                     android:text="SS Galaxy A71"
                                     android:textColor="@color/colorProduct"
                                     android:textSize="14sp" />
+
                                 <View
                                     android:layout_width="match_parent"
                                     android:layout_height="1dp"
                                     android:layout_marginTop="3dp"
                                     android:layout_marginBottom="3dp"
-                                    android:background="#d9d9d9"/>
+                                    android:background="#d9d9d9" />
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -123,18 +125,19 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_weight="0.5"
-                                        android:src="@drawable/button_favourite"
-                                        android:background="#fff"/>
+                                        android:background="#fff"
+                                        android:src="@drawable/button_favourite" />
+
                                     <TextView
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="3"
+                                        android:gravity="center_horizontal"
                                         android:text="22.690.000"
-                                        android:textSize="14sp"
                                         android:textAlignment="center"
                                         android:textColor="#d41031"
-                                        android:translationX="2dp"
-                                        android:gravity="center_horizontal" />
+                                        android:textSize="14sp"
+                                        android:translationX="2dp" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -148,8 +151,8 @@
                         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                             android:layout_width="120dp"
                             android:layout_height="150dp"
-                            android:layout_marginBottom="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
                             android:elevation="6dp"
                             card_view:cardCornerRadius="6dp">
 
@@ -170,12 +173,14 @@
                                     android:text="Ipad Air 2019"
                                     android:textColor="@color/colorProduct"
                                     android:textSize="14sp" />
+
                                 <View
                                     android:layout_width="match_parent"
                                     android:layout_height="1dp"
                                     android:layout_marginTop="3dp"
                                     android:layout_marginBottom="3dp"
-                                    android:background="#d9d9d9"/>
+                                    android:background="#d9d9d9" />
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -185,18 +190,19 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_weight="0.5"
-                                        android:src="@drawable/button_favourite"
-                                        android:background="#fff"/>
+                                        android:background="#fff"
+                                        android:src="@drawable/button_favourite" />
+
                                     <TextView
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="3"
+                                        android:gravity="center_horizontal"
                                         android:text="3.790.000"
-                                        android:textSize="14sp"
                                         android:textAlignment="center"
                                         android:textColor="#d41031"
-                                        android:translationX="2dp"
-                                        android:gravity="center_horizontal" />
+                                        android:textSize="14sp"
+                                        android:translationX="2dp" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -210,8 +216,8 @@
                         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                             android:layout_width="120dp"
                             android:layout_height="150dp"
-                            android:layout_marginBottom="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
                             android:elevation="6dp"
                             card_view:cardCornerRadius="6dp">
 
@@ -232,12 +238,14 @@
                                     android:text="Iphone 11 PM"
                                     android:textColor="@color/colorProduct"
                                     android:textSize="14sp" />
+
                                 <View
                                     android:layout_width="match_parent"
                                     android:layout_height="1dp"
                                     android:layout_marginTop="3dp"
                                     android:layout_marginBottom="3dp"
-                                    android:background="#d9d9d9"/>
+                                    android:background="#d9d9d9" />
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -247,18 +255,19 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_weight="0.5"
-                                        android:src="@drawable/button_favourite"
-                                        android:background="#fff"/>
+                                        android:background="#fff"
+                                        android:src="@drawable/button_favourite" />
+
                                     <TextView
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="3"
+                                        android:gravity="center_horizontal"
                                         android:text="22.690.000"
-                                        android:textSize="14sp"
                                         android:textAlignment="center"
                                         android:textColor="#d41031"
-                                        android:translationX="2dp"
-                                        android:gravity="center_horizontal" />
+                                        android:textSize="14sp"
+                                        android:translationX="2dp" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -272,8 +281,8 @@
                         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                             android:layout_width="120dp"
                             android:layout_height="150dp"
-                            android:layout_marginBottom="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
                             android:elevation="6dp"
                             card_view:cardCornerRadius="6dp">
 
@@ -294,12 +303,14 @@
                                     android:text="Realme C3"
                                     android:textColor="@color/colorProduct"
                                     android:textSize="14sp" />
+
                                 <View
                                     android:layout_width="match_parent"
                                     android:layout_height="1dp"
                                     android:layout_marginTop="3dp"
                                     android:layout_marginBottom="3dp"
-                                    android:background="#d9d9d9"/>
+                                    android:background="#d9d9d9" />
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -309,18 +320,19 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_weight="0.5"
-                                        android:src="@drawable/button_favourite"
-                                        android:background="#fff"/>
+                                        android:background="#fff"
+                                        android:src="@drawable/button_favourite" />
+
                                     <TextView
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="3"
+                                        android:gravity="center_horizontal"
                                         android:text="2.590.000"
-                                        android:textSize="14sp"
                                         android:textAlignment="center"
                                         android:textColor="#d41031"
-                                        android:translationX="2dp"
-                                        android:gravity="center_horizontal" />
+                                        android:textSize="14sp"
+                                        android:translationX="2dp" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -334,8 +346,8 @@
                         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                             android:layout_width="120dp"
                             android:layout_height="150dp"
-                            android:layout_marginBottom="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
                             android:elevation="6dp"
                             card_view:cardCornerRadius="6dp">
 
@@ -356,12 +368,14 @@
                                     android:text="Galaxy Note 10"
                                     android:textColor="@color/colorProduct"
                                     android:textSize="14sp" />
+
                                 <View
                                     android:layout_width="match_parent"
                                     android:layout_height="1dp"
                                     android:layout_marginTop="3dp"
                                     android:layout_marginBottom="3dp"
-                                    android:background="#d9d9d9"/>
+                                    android:background="#d9d9d9" />
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -371,18 +385,19 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_weight="0.5"
-                                        android:src="@drawable/button_favourite"
-                                        android:background="#fff"/>
+                                        android:background="#fff"
+                                        android:src="@drawable/button_favourite" />
+
                                     <TextView
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="3"
+                                        android:gravity="center_horizontal"
                                         android:text="9.290.000"
-                                        android:textSize="14sp"
                                         android:textAlignment="center"
                                         android:textColor="#d41031"
-                                        android:translationX="2dp"
-                                        android:gravity="center_horizontal" />
+                                        android:textSize="14sp"
+                                        android:translationX="2dp" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -396,8 +411,8 @@
                         <android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
                             android:layout_width="120dp"
                             android:layout_height="150dp"
-                            android:layout_marginBottom="10dp"
                             android:layout_marginRight="10dp"
+                            android:layout_marginBottom="10dp"
                             android:elevation="6dp"
                             card_view:cardCornerRadius="6dp">
 
@@ -418,12 +433,14 @@
                                     android:text="Galaxy S20"
                                     android:textColor="@color/colorProduct"
                                     android:textSize="14sp" />
+
                                 <View
                                     android:layout_width="match_parent"
                                     android:layout_height="1dp"
                                     android:layout_marginTop="3dp"
                                     android:layout_marginBottom="3dp"
-                                    android:background="#d9d9d9"/>
+                                    android:background="#d9d9d9" />
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
@@ -433,18 +450,19 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="18dp"
                                         android:layout_weight="0.5"
-                                        android:src="@drawable/button_favourite"
-                                        android:background="#fff"/>
+                                        android:background="#fff"
+                                        android:src="@drawable/button_favourite" />
+
                                     <TextView
                                         android:layout_width="0dp"
                                         android:layout_height="wrap_content"
                                         android:layout_weight="3"
+                                        android:gravity="center_horizontal"
                                         android:text="16.690.000"
-                                        android:textSize="14sp"
                                         android:textAlignment="center"
                                         android:textColor="#d41031"
-                                        android:translationX="2dp"
-                                        android:gravity="center_horizontal" />
+                                        android:textSize="14sp"
+                                        android:translationX="2dp" />
 
                                 </LinearLayout>
                             </LinearLayout>
@@ -456,45 +474,58 @@
             </HorizontalScrollView>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
-        android:padding="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
-    <LinearLayout
-        android:layout_margin="10dp"
-        android:layout_width="260dp"
-        android:layout_height="200dp">
-        <TextView
-            android:id="@+id/listsanpham"
-            android:text="SAMSUNG"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:textAlignment="center"
-            android:paddingTop="70dp"
-            android:background="#3643d8"
-            android:layout_marginLeft="3dp"
-            android:textColor="#ffffff"
-            android:gravity="center_horizontal"
-            android:layout_marginStart="3dp" />
-    </LinearLayout>
-    <LinearLayout
-        android:layout_margin="10dp"
-        android:layout_width="260dp"
-        android:layout_height="200dp">
-        <TextView
-            android:id="@+id/listsanpham2"
-            android:text="APPLE"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="25sp"
-            android:textAlignment="center"
-            android:paddingTop="70dp"
-            android:background="#3643d8"
-            android:textColor="#ffffff"
-            android:gravity="center_horizontal"/>
-    </LinearLayout>
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_margin="6dp">
+
+                <TextView
+                    android:id="@+id/listsanpham"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="#3643d8"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="70dp"
+                    android:text="SAMSUNG"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="210dp"
+                android:layout_height="200dp"
+                android:layout_margin="6dp">
+
+                <TextView
+                    android:id="@+id/listsanpham2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginLeft="3dp"
+                    android:background="#3643d8"
+                    android:gravity="center_horizontal"
+                    android:paddingTop="70dp"
+                    android:text="APPLE"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="25sp" />
+            </LinearLayout>
+        </LinearLayout>
 
     </LinearLayout>
 </LinearLayout>

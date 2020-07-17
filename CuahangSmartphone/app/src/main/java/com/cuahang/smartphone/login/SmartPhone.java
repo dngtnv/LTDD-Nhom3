@@ -10,11 +10,12 @@ public class SmartPhone implements Serializable {
     private int avatar;
     private int price;
     private int number;
+    private int soluong;
 
     public SmartPhone() {
     }
 
-    public SmartPhone(int id, String productName, String description, String manufacturur, int avatar, int price, int number) {
+    public SmartPhone(int id, String productName, String description, String manufacturur, int avatar, int price, int number, int soluong) {
         this.id = id;
         this.productName = productName;
         this.description = description;
@@ -22,6 +23,7 @@ public class SmartPhone implements Serializable {
         this.avatar = avatar;
         this.price = price;
         this.number = number;
+        this.soluong = soluong;
     }
 
     public int getId() {
@@ -78,5 +80,11 @@ public class SmartPhone implements Serializable {
 
     public void setNumber(int number) {
         this.number = number;
+    }
+    public int getSoluong(){
+        return soluong;
+    }
+    public void setSoluong(int soluong){
+        this.soluong = soluong;
     }
 }

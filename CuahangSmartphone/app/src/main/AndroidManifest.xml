@@ -9,12 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.cuahang.smartphone.login.MainActivity"/>
-        <activity android:name=".DanhSachSanPham"/>
-        <activity android:name=".GiaoDienGioHang"/>
-        <activity android:name=".RegisterPay"/>
+        <activity android:name=".ChiTietSanPham"></activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DanhSachSanPham" />
+        <activity android:name=".GiaoDienGioHang" />
+        <activity android:name=".RegisterPay" />
         <activity
-            android:name="com.cuahang.smartphone.login.LoginActivity"
+            android:name=".LoginActivity"
             android:windowSoftInputMode="stateHidden">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,7 +24,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.cuahang.smartphone.login.RegisterActivity"
+            android:name=".RegisterActivity"
             android:label="Đăng ký tài khoản mới"
             android:windowSoftInputMode="stateHidden" />
     </application>

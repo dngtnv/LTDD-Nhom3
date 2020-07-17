@@ -13,7 +13,6 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
         android:text="THÔNG TIN MUA HÀNG"
         android:textColor="#ffe0e0"
         android:textSize="12pt" />
@@ -125,7 +124,7 @@
             android:layout_marginTop="30dp"
             android:text="Xác nhận" />
 
-        <Button
+        <!--<Button
             android:id="@+id/btnQuaylai"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -134,6 +133,6 @@
             android:textColor="#f16f7d"
             android:padding="16dp"
             android:layout_marginTop="10dp"
-            android:text="Quay lại" />
+            android:text="Quay lại" />-->
     </LinearLayout>
 </LinearLayout>

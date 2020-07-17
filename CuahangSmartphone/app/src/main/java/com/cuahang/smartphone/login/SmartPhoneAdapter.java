@@ -22,6 +22,7 @@ public class SmartPhoneAdapter extends ArrayAdapter<SmartPhone> {
         ImageView imgHinhDienThoai=(ImageView)customView.findViewById(R.id.imgHinhDienThoai);
         TextView txtTenDienThoai=(TextView)customView.findViewById(R.id.txtTenDienThoai);
         TextView txtGiaDienThoai=(TextView)customView.findViewById(R.id.txtGiaDienThoai);
+        final TextView soLuong=(TextView)customView.findViewById(R.id.txtSoLuong);
         ImageView imgThem=(ImageView) customView.findViewById(R.id.imgThemdienThoai);
 //        ImageView imgXoa=(ImageView) customView.findViewById(R.id.imgXoasanpham);
 

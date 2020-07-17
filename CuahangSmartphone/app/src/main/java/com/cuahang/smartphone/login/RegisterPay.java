@@ -26,13 +26,13 @@ public class RegisterPay extends AppCompatActivity {
                 startActivity(intentbtnPay);
             }
         });
-        btnQuaylai.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intentbtnQuaylai = new Intent(getApplicationContext(), GiaoDienGioHang.class);
-                startActivity(intentbtnQuaylai);
-            }
-        });
+//        btnQuaylai.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intentbtnQuaylai = new Intent(getApplicationContext(), GiaoDienGioHang.class);
+//                startActivity(intentbtnQuaylai);
+//            }
+//        });
     }
     private void Anhxa() {
         btnPay=(Button) findViewById(R.id.btnPay);
